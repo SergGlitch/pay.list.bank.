@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+:root{
+    --main-color:#284b63;
+    --secondary-color:#d9d9d9;
+    --other-color:white;
+    --main-font:"Montserrat", serif;
+    --secondary-font:"Montserrat", serif;
+    --third-font:"Stalinist One", serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style-type: none;
+}
+
+body{
+    background-image:url(/img/gg.jpg);
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+}
+
+.logo{
+    color: green;
+    text-transform: uppercase;
+    font-family: var(--third-font);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img{
+    width: 40px;
+    border-radius: 5px;
+}
+
+nav{
+    display: flex;
+    gap: 15px;
+}
+
+nav a{
+    color: black;
+    font-family: var(--main-font);
+    text-decoration: none;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgb(201, 201, 201);
+}
+
+.product-card{
+    padding: 20px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    border-top: 2px solid rgba(255, 255, 255, 0.637);
+    background: linear-gradient(150deg,rgba(255, 255, 255, 0.37),rgba(87, 87, 87, 0.500));
+  }
+  
+h3{
+    text-align: center;
+    margin: 80px auto;
+    font-family: Arial;
+    color: white;
+    font-family: var(--third-font);
+    letter-spacing: 3px;
+}
+  
+  .product-title {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    font-family: var(--main-font);
+  }
+  
+  .product-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: var(--secondary-font);
+    font-size: 30px;
+  }
+  
+  .order-button {
+    background-color:#ffffff;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px 2px;
+    cursor: pointer;
+    font-family: var(--third-font);
+  }
+
+  .form-controls{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 10px;
+  }
+
+  #buy-b{
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: black;
+  }
+
+  .edit{
+border-radius: 5px;
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 15px;
+  }
+
+  .editb{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .order-buttonsu{
+    width: 200px;
+    height: 45px;
+    background-color:#ffffff;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 10px 2px;
+    cursor: pointer;
+    font-family: var(--third-font);
+  }
