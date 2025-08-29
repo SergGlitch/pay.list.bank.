@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 :root{
     --main-color:#284b63;
     --secondary-color:#d9d9d9;
     --other-color:white;
-    --main-font:"Montserrat", serif;
-    --secondary-font:"Montserrat", serif;
-    --third-font:"Stalinist One", serif;
+    --main-font: "Montserrat", serif;
+    --secondary-font: "Montserrat", serif;
+    --third-font: "Unbounded", sans-serif;
+    --button-font: "Russo One", sans-serif;
 }
 *{
     padding: 0;
@@ -29,7 +30,7 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 70px;
+    height: 80px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -74,8 +75,8 @@ button {
     text-align: center;
     border-radius: 20px;
     color: white;
-    border-top: 2px solid rgba(255, 255, 255, 0.637);
-    background: linear-gradient(150deg,rgba(255, 255, 255, 0.37),rgba(87, 87, 87, 0.500));
+    background-color: rgba(255, 255, 255, 0.080);
+    border: 2px solid rgba(255, 255, 255, 0.222);
   }
   
 h3{
@@ -109,7 +110,7 @@ h3{
     font-size: 15px;
     margin: 10px 2px;
     cursor: pointer;
-    font-family: var(--third-font);
+    font-family: var(--button-font);
   }
 
   .form-controls{
@@ -123,20 +124,20 @@ h3{
   #buy-b{
     width: 80px;
     height: 20px;
-    background-color: green;
-    color: white;
+    background-color: rgb(0, 156, 0);
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border: none;
-    box-shadow: black;
+    box-shadow: none;
   }
 
   .edit{
-border-radius: 5px;
-border: none;
-display: flex;
-justify-content: center;
-align-items: center;
-font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
   }
 
   .editb{
@@ -146,16 +147,6 @@ font-size: 15px;
     align-items: center;
   }
 
-  .order-buttonsu{
-    width: 200px;
-    height: 45px;
-    background-color:#ffffff;
-    border: none;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-    font-size: 15px;
-    margin: 10px 2px;
-    cursor: pointer;
+  .sm-code{
     font-family: var(--third-font);
   }
